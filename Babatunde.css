@@ -1,0 +1,90 @@
+.myhead {
+    text-align: left;
+    border: none solid;
+    background-color: rgb(19, 119, 158);
+    height: 100px;
+    color: whitesmoke;
+}
+
+img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar {
+    float: right;
+    border: none solid;
+    color: black;
+    background-color: rgb(81, 164, 197);
+    height: 1212px;
+    width:400px;
+}
+
+#sidehead {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 140px;
+    color: whitesmoke;
+}
+
+#sidehead1 {
+    text-align: left;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#sidehead2 {
+    text-align: left;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#sidehead3 {
+    text-align: left;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+hr {
+    height: 2px;
+    color: greenyellow;
+    background-color: greenyellow;
+}
+
+.sec {
+    float: left;
+    border: none solid;
+    color: black;
+    background-color: white;
+    height: 715px;
+    width:1101px;
+}
+
+.edu {
+    font-size: 25px;
+}
+
+.exp {
+    font-size: 25px;
+}
+.inpo {
+    width: 350px;
+    height: 100px;
+    border-radius: 6px;
+    border: 2px solid greenyellow;
+}
+.repo input {
+    width: 250px;
+    height: 25px;
+    border-radius: 6px; 
+    border: 2px solid greenyellow;
+}
+.spar {
+    float: center;
+}
+button {
+    width: 200px;
+    border: 2px solid greenyellow;
+    border-radius: 2px;
+}
