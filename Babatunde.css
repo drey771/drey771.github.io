@@ -53,7 +53,7 @@ hr {
 }
 
 .sec {
-    float: left;
+    float: absolute;
     border: none solid;
     color: black;
     background-color: white;
