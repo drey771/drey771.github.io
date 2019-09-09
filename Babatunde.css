@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  background: #c3c3c3;
+  height: 100vh;
+  line-height: 2rem;
+}
+
+.myhead {
+  border: none solid;
+  background-color: rgb(19, 119, 158);
+  height: 100px;
+  color: whitesmoke;
+  width: 100%;
+}
+.myhead {
+  height: 14vh;
+  margin-bottom: 0.4rem;
+}
+.myhead h1,
+.myhead h4 {
+  text-align: center;
+  line-height: 3rem;
+}
+
+img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar {
+  border: none solid;
+  color: black;
+  background-color: rgb(81, 164, 197);
+  height: 100%;
+  width: 400px;
+}
+
+#sidehead {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 140px;
+  color: whitesmoke;
+}
+
+#sidehead1 {
+  text-align: left;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+#sidehead2 {
+  text-align: left;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+#sidehead3 {
+  text-align: left;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+hr {
+  height: 2px;
+  color: greenyellow;
+  background-color: greenyellow;
+}
+
+.sec {
+  float: left;
+  border: none solid;
+  color: black;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.edu {
+  font-size: 25px;
+}
+
+.exp {
+  font-size: 25px;
+}
+.inpo {
+  width: 350px;
+  height: 100px;
+  border-radius: 6px;
+  border: 2px solid greenyellow;
+}
+.repo input {
+  width: 250px;
+  height: 25px;
+  border-radius: 6px;
+  border: 2px solid greenyellow;
+}
+.spar {
+  float: center;
+}
+button {
+  width: 200px;
+  border: 2px solid greenyellow;
+  border-radius: 2px;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "row1 row2" "form form";
+  gap: 2rem;
+}
+.sec {
+  grid-area: row2;
+}
+aside {
+  grid-area: row1;
+  height: 100vh;
+}
+#form {
+  margin: 0 auto;
+  grid-area: form;
+  width: 100%;
+}
+aside div {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5rem solid #0a0a0a;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+aside div:last-child {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sec div {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px dotted rgb(19, 119, 158);
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin-left: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
